@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\artem\\Source\\Repos\\Jakepps\\FiLP\\Lr5_13\\Lr5_13.fsproj": {}
+    "C:\\Users\\artem\\source\\repos\\Jakepps\\FiLP\\Lr5_14\\Lr5_14.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\artem\\Source\\Repos\\Jakepps\\FiLP\\Lr5_13\\Lr5_13.fsproj": {
+    "C:\\Users\\artem\\source\\repos\\Jakepps\\FiLP\\Lr5_14\\Lr5_14.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\artem\\Source\\Repos\\Jakepps\\FiLP\\Lr5_13\\Lr5_13.fsproj",
-        "projectName": "Lr5_13",
-        "projectPath": "C:\\Users\\artem\\Source\\Repos\\Jakepps\\FiLP\\Lr5_13\\Lr5_13.fsproj",
+        "projectUniqueName": "C:\\Users\\artem\\source\\repos\\Jakepps\\FiLP\\Lr5_14\\Lr5_14.fsproj",
+        "projectName": "Lr5_14",
+        "projectPath": "C:\\Users\\artem\\source\\repos\\Jakepps\\FiLP\\Lr5_14\\Lr5_14.fsproj",
         "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\artem\\Source\\Repos\\Jakepps\\FiLP\\Lr5_13\\obj\\",
+        "outputPath": "C:\\Users\\artem\\source\\repos\\Jakepps\\FiLP\\Lr5_14\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
