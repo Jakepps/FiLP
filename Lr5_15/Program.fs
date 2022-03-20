@@ -26,6 +26,6 @@ let Eyler n =
 
 [<EntryPoint>]
 let main argv =
-    Console.WriteLine(Eyler 25)
+    Console.WriteLine(Eyler 36)
 
     0 

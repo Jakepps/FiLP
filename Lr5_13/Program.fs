@@ -6,7 +6,7 @@ let rec MultUp n =
     if n=0 then 1
     else (n%10)*MultUp (n/10)
 
-//Рекурсия вниз боже почему ты допускаешь это в твоем мире
+//Хвостовая
 let MultDown n =
     let rec MultDown2 n res = 
         if n=0 then res
@@ -24,7 +24,7 @@ let rec MaxCifrUp n =
         if MaxCifrUp(n/10)>n%10 then MaxCifrUp(n/10)
         else n%10
 
-//Рекурсия вниз
+//Хвостовая
 let MaxCifrDown n =
     let rec MaxCifr n res = 
         match n with
@@ -41,7 +41,7 @@ let rec MinCifrUp n =
         if MinCifrUp(n/10)<n%10 then MinCifrUp(n/10)
         else n%10
 
-//Рекурсия вниз
+//Хвостовая
 let MinCifrDown n =
     let rec MinCifr n res = 
         match n with
