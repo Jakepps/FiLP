@@ -53,6 +53,7 @@ let MinCifrDown n =
 
 [<EntryPoint>]
 let main argv =
+    Console.WriteLine( "Ввидите число:")
     let n=Convert.ToInt32(Console.ReadLine())
     Console.WriteLine( "Произведение рекурсией вверх:")
     Console.WriteLine( MultUp n)
