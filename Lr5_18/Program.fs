@@ -23,7 +23,8 @@ let NOD x y =
     if x>y then RecNOD x y y
     else RecNOD x y x
 
- //сумма простых делителей числа.
+ //колличество простых делителей числа
+ //текущий делитель
 let CountPrNum x currentDivisor = 
     let rec CountPrNum1 x currentDivisor count = 
         if x = 0 then count
@@ -37,9 +38,26 @@ let CountPrNum x currentDivisor =
                 CountPrNum1 x currentDivisor count
     CountPrNum1 x currentDivisor 0
 
+//делитель, являющийся взаимнопростым с наибольшим количеством цифр заданного числа
+let MaxPrNum x = 
+    let rec MaxPrNum1 x currentDivisor maxCount maxDivisor = 
+        if currentDivisor = 0 then maxDivisor
+        else 
+            if CountPrNum x currentDivisor > maxCount then
+                let maxCount = CountPrNum x currentDivisor    
+                let maxCount1 = maxCount
+                let maxDivisor = currentDivisor
+                let currentDivisor1 = currentDivisor - 1
+                MaxPrNum1 x currentDivisor maxCount maxDivisor
+            else 
+                let currentDivisor1 = currentDivisor - 1
+                MaxPrNum1 x currentDivisor1 maxCount maxDivisor
+    MaxPrNum1 x x 0 0
+
+
 [<EntryPoint>]
 let main argv =
-
-
-
+    Console.WriteLine(Sum3 139)
+    Console.WriteLine(CountPrNum 12345 5)
+    Console.WriteLine(MaxPrNum 125)
     0
