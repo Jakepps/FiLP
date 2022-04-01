@@ -34,3 +34,4 @@ C:\Users\artem\source\repos\Jakepps\FiLP\Lr7_38\obj\Debug\net5.0\Lr7_38.fsproj.C
 C:\Users\artem\source\repos\Jakepps\FiLP\Lr7_38\obj\Debug\net5.0\Lr7_38.dll
 C:\Users\artem\source\repos\Jakepps\FiLP\Lr7_38\obj\Debug\net5.0\Lr7_38.pdb
 C:\Users\artem\source\repos\Jakepps\FiLP\Lr7_38\obj\Debug\net5.0\Lr7_38.genruntimeconfig.cache
+C:\Users\artem\source\repos\Jakepps\FiLP\Lr7_38\obj\Debug\net5.0\Lr7_38.fsproj.AssemblyReference.cache

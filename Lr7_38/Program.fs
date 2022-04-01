@@ -1,21 +1,12 @@
 ﻿open System
 
-//количество элементов на  отрезке а б 
-let CountElemOnAB list a b = 
-    let rec CountElemOnAB1 list a b resultList count= 
-        match list with
-        []-> resultList
-        |head :: tail -> if head >= a && head <= b then 
-                                                    CountElemOnAB1 tail a b (List.append resultList [head]) (count+1)
-                         else CountElemOnAB1 tail a b resultList count 
-    CountElemOnAB1 list a b [] 0   
-    
+
+let k list = List.fold (fun acc x ->acc+1) 0 list
 
 [<EntryPoint>]
 let main argv =
-    
-    let list=Program.readData
-    let a=CountElemOnAB list 1 10
-    printf "%A" a
-
+    let list = Program.readData
+    let new_l = List.filter (fun x -> x > 1 && x < 10) list
+    let ll= k new_l
+    printf "%A" ll
     0
