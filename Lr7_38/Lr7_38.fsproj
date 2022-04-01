@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <WarnOn>3390;$(WarnOn)</WarnOn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Lr6_11">
+      <HintPath>..\Lr6_11\bin\Debug\net5.0\Lr6_11.dll</HintPath>
+    </Reference>
+    <Reference Include="Lr6_18">
+      <HintPath>..\Lr6_18\bin\Debug\net5.0\Lr6_18.dll</HintPath>
+    </Reference>
+    <Reference Include="Lr6_35">
+      <HintPath>..\Lr6_35\bin\Debug\net5.0\Lr6_35.dll</HintPath>
+    </Reference>
+    <Reference Include="Lr7_18">
+      <HintPath>..\Lr7_18\obj\Debug\net5.0\Lr7_18.dll</HintPath>
+    </Reference>
+    <Reference Include="Lr7_8">
+      <HintPath>..\Lr7_8\obj\Debug\net5.0\Lr7_8.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
