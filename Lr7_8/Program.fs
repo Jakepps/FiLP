@@ -10,7 +10,7 @@ let Min2 (list: 'a list) =
     let minIndex1 = List.findIndex (fun x -> x = List.min list) list
     let list = remove minIndex1 list
     let minIndex2 = List.findIndex (fun x -> x = List.min list) list
-    if minIndex2 >= minIndex1 then (minIndex1, (minIndex2))
+    if minIndex2 >= minIndex1 then (minIndex1, (minIndex2+1))
     else (minIndex1, minIndex2)
     
 
