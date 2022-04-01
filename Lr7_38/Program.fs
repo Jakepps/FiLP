@@ -16,6 +16,6 @@ let main argv =
     
     let list=Program.readData
     let a=CountElemOnAB list 1 10
-    Console.WriteLine a
+    printf "%A" a
 
     0
