@@ -1,41 +1,16 @@
 ﻿open System
+//найти среднее арифметическое модулей его элементов.
+let rec readList n =
+    List.init(n) (fun index->Console.ReadLine()|>Convert.ToDouble)
 
-//сколько x в list
-let Meeting list x = 
-    let rec Meeting2 list x count = 
-        match list with 
-        []->count
-        |head :: tail -> if head = x then Meeting2 tail x (count+1)
-                         else Meeting2 tail x count
-    Meeting2 list x 0    
+let readData = 
+    let n=Convert.ToInt32(System.Console.ReadLine())
+    readList n
 
-//самый часто встречающийся элемент 
-let MaxMeetingElem list = 
-    let rec MaxMeetingElem1 list maxElem maxCount = 
-        match list with 
-        []-> maxElem
-        |head :: tail -> if Meeting list head > maxCount then 
-                            MaxMeetingElem1 tail head (Meeting list head)
-                         else MaxMeetingElem1 tail maxElem maxCount
-    MaxMeetingElem1 list list.Head (Meeting list list.Head)
-    
-//индексы самого часто встречающегося элемента массива
-let MaxMeetingElemIndexes list = 
-    let rec MaxMeetingElemIndexes1 list maxElem currentIndex resultList = 
-        match list with
-        [] -> resultList
-        |head :: tail -> if head = maxElem then
-                            MaxMeetingElemIndexes1 tail maxElem (currentIndex+1)(List.append resultList [currentIndex]) 
-                         else 
-                            MaxMeetingElemIndexes1 tail maxElem (currentIndex+1) resultList
-    MaxMeetingElemIndexes1 list (MaxMeetingElem list) 0 []
+let AverageAbsList list = List.average (List.map (fun (x:float)-> Math.Abs(x)) list )
 
 [<EntryPoint>]
 let main argv =
-
-    let list = Program.readData
-    //Console.WriteLine(Meeting list 6)
-    Console.WriteLine(MaxMeetingElem list)
-    Program.writeList(MaxMeetingElemIndexes list)
+    readData|>AverageAbsList |> Console.WriteLine
 
     0
