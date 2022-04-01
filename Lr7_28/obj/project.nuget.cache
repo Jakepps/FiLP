@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lUM4UVgQZ920svuMP3M56Vbb7853kDLf7tWSUpr8GFOmzYViRx+7VZqnknSmvAfJiafbRAKTblXA2ZxC2iYr9Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\artem\\source\\repos\\Jakepps\\FiLP\\Lr7_28\\Lr7_28.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\artem\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
