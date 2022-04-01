@@ -35,7 +35,7 @@ let main argv =
 
     let list = Program.readData
     //Console.WriteLine(Meeting list 6)
-    //Console.WriteLine(MaxMeetingElem list)
+    Console.WriteLine(MaxMeetingElem list)
     Program.writeList(MaxMeetingElemIndexes list)
 
     0
