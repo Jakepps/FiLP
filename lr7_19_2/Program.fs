@@ -8,12 +8,16 @@ let Orderlines str =
             else false
     isOrder justLower 0
 
+let provA str=
+    let prov2 = String.filter(fun x-> x='A') str
+    prov2.Length
+
 
 
 let choose n str =
     match n with
     | 1 -> printfn "%b" (Orderlines str)
-//    | 2 -> printfn "%i" (provA str)
+    | 2 -> printfn "%i" (provA str)
  //   | 3-> printfn "%s" (namefile str)
     |_-> printfn "%A" ("Cringe")
 
