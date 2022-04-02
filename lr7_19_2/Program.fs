@@ -40,5 +40,5 @@ let main argv =
      printfn "%A" "Введите номер задачи: " 
      let n = Convert.ToInt32(Console.ReadLine())
      choose n str   
-    
+    //не знаю зачем комитить итог если он похож полностью на 3 комиты 
      0
