@@ -8,6 +8,25 @@ let writeArray arr =
             System.Console.WriteLine( arr.[ind] )
             realWriteArray arr nextind
     realWriteArray arr 0
+
+let ascii char = int char - int '0'
+
+let stringFold (func: 'state -> char -> 'state) (init: 'state) (value: string) =
+    let rec _stringFold (index: int) (state: 'state) =
+        match index with
+        | final when final = value.Length -> state
+        | _ -> 
+            let newState = func state (value.Chars index)
+            let newIndex = index + 1
+            _stringFold newIndex newState
+    _stringFold 0 init
+
+let asciiWeight string = (stringFold (fun sum v -> sum + float (ascii v)) 0.0 string) / (float string.Length)
+
+let getMaxWeight (string: string) = 
+    stringFold (fun state va ->
+        if ascii (fst state) + (ascii (snd state)) + (ascii (fst (snd state))) then state else state
+    ) (string.Chars 0; 0) string
 //В порядке увеличения среднего веса ASCII-кода символа строки
 let metod1 arrStr =
     let rec foundAvgOfKode (str:string) ind (acc:int)=
@@ -19,6 +38,12 @@ let metod1 arrStr =
         (fun (str:string) -> 
             foundAvgOfKode str 0 0) 
         arrStr
+
+
+
+
+
+
 
 let multimetod n str =
     match n with
