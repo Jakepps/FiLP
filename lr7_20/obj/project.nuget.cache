@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U5a1khfPNvAffSKdpa+5ovTCzEyldDqbdQOiYbT9N8/G9sMY0sD/NhUmoe5dU4m1KG+P+9o0SYJN5fGwoKZ/LQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Артем\\source\\repos\\git\\FiLP\\lr7_20\\lr7_20.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Артем\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
