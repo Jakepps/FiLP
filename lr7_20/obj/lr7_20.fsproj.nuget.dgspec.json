@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Артем\\source\\repos\\git\\FiLP\\lr7_20\\lr7_20.fsproj": {}
+    "C:\\Users\\artem\\source\\repos\\Jakepps\\FiLP\\lr7_20\\lr7_20.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\Артем\\source\\repos\\git\\FiLP\\lr7_20\\lr7_20.fsproj": {
+    "C:\\Users\\artem\\source\\repos\\Jakepps\\FiLP\\lr7_20\\lr7_20.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Артем\\source\\repos\\git\\FiLP\\lr7_20\\lr7_20.fsproj",
+        "projectUniqueName": "C:\\Users\\artem\\source\\repos\\Jakepps\\FiLP\\lr7_20\\lr7_20.fsproj",
         "projectName": "lr7_20",
-        "projectPath": "C:\\Users\\Артем\\source\\repos\\git\\FiLP\\lr7_20\\lr7_20.fsproj",
-        "packagesPath": "C:\\Users\\Артем\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Артем\\source\\repos\\git\\FiLP\\lr7_20\\obj\\",
+        "projectPath": "C:\\Users\\artem\\source\\repos\\Jakepps\\FiLP\\lr7_20\\lr7_20.fsproj",
+        "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\artem\\source\\repos\\Jakepps\\FiLP\\lr7_20\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Артем\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,7 +38,7 @@
             "FSharp.Core": {
               "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[5.0.0, )",
+              "version": "[6.0.2, )",
               "generatePathProperty": true
             }
           },
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "U5a1khfPNvAffSKdpa+5ovTCzEyldDqbdQOiYbT9N8/G9sMY0sD/NhUmoe5dU4m1KG+P+9o0SYJN5fGwoKZ/LQ==",
+  "dgSpecHash": "vHm7U1VfHZthA7nBwCx7ACN67/HbTxgh/0+CS8TSPycn9QNRCA5HTxcO7Ja40yW5V0LtYA1sQMyrOKkCVv3uew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Артем\\source\\repos\\git\\FiLP\\lr7_20\\lr7_20.fsproj",
+  "projectFilePath": "C:\\Users\\artem\\source\\repos\\Jakepps\\FiLP\\lr7_20\\lr7_20.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Артем\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+    "C:\\Users\\artem\\.nuget\\packages\\fsharp.core\\6.0.2\\fsharp.core.6.0.2.nupkg.sha512"
   ],
   "logs": []
 }

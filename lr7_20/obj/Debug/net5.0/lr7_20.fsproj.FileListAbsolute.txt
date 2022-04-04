@@ -25,3 +25,8 @@ C:\Users\Артем\source\repos\git\FiLP\lr7_20\obj\Debug\net5.0\lr7_20.fsproj.
 C:\Users\Артем\source\repos\git\FiLP\lr7_20\obj\Debug\net5.0\lr7_20.dll
 C:\Users\Артем\source\repos\git\FiLP\lr7_20\obj\Debug\net5.0\lr7_20.pdb
 C:\Users\Артем\source\repos\git\FiLP\lr7_20\obj\Debug\net5.0\lr7_20.genruntimeconfig.cache
+C:\Users\artem\source\repos\Jakepps\FiLP\lr7_20\obj\Debug\net5.0\lr7_20.fsproj.AssemblyReference.cache
+C:\Users\artem\source\repos\Jakepps\FiLP\lr7_20\obj\Debug\net5.0\lr7_20.AssemblyInfoInputs.cache
+C:\Users\artem\source\repos\Jakepps\FiLP\lr7_20\obj\Debug\net5.0\lr7_20.AssemblyInfo.fs
+C:\Users\artem\source\repos\Jakepps\FiLP\lr7_20\obj\Debug\net5.0\lr7_20.dll
+C:\Users\artem\source\repos\Jakepps\FiLP\lr7_20\obj\Debug\net5.0\lr7_20.pdb

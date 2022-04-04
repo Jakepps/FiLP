@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3vH4AhMeyDfwXgBhf2GyURhljli2ph3FKc7zBOoByjIn6ww2e5vuIPzYQy7XLtWwzR4BUD3+xk6Mgve903T+MQ==",
+  "dgSpecHash": "hNMSGGD9PwqsgdhLVrNhfqOmF1gosRO4BHj38K8D3K5pnSNMkIGj2FFzRs75I4C1nX+h0h53c8HqDqhKqv+isQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\artem\\source\\repos\\Jakepps\\FiLP\\Lr7_48\\Lr7_48.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\artem\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+    "C:\\Users\\artem\\.nuget\\packages\\fsharp.core\\6.0.2\\fsharp.core.6.0.2.nupkg.sha512"
   ],
   "logs": []
 }
