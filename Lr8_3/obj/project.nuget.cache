@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2zlgYpvUBz9cNtG/I2TUG0F0mLQFbMpgjo5VU8lYC9YUKyPKAbUsspoTwZCpbvOwdfqiosrd61nYGMgdw0PgAw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\artem\\source\\repos\\Jakepps\\FiLP\\Lr8_3\\Lr8_3.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\artem\\.nuget\\packages\\fparsec\\1.1.1\\fparsec.1.1.1.nupkg.sha512",
+    "C:\\Users\\artem\\.nuget\\packages\\fsharp.core\\6.0.2\\fsharp.core.6.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
