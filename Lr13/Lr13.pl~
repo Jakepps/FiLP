@@ -78,4 +78,4 @@ avgN(L,A):-
     sumN(L,N,S),
     A is S/N.
 
-task3:-L=[1,2,3,4,5],avgN(L,X),avgP(L,A),if(X>A,write(X),write('No')),!.
+task3:-L=[1,2,3,4,5],avgN(L,X),avgP(L,A),if(X>A,write(X),write(A)),!.
